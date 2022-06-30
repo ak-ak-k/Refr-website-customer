@@ -129,6 +129,7 @@ margin-left: auto;
   align-items: center;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  margin-bottom: 4rem;
 }
 
 .middle_align {
@@ -190,7 +191,7 @@ margin-left: auto;
 }
 
 .main_img {
-  width: 11rem;
+  width: 296px;
 }
 
 .want_more {

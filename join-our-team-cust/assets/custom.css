@@ -7,6 +7,10 @@
   width: 8px;
 }
 
+a {
+  text-decoration: none;
+}
+
 ::-webkit-scrollbar-thumb {
   border-radius: 0px;
   background-color: rgb(22, 22, 22);
@@ -40,7 +44,10 @@
     font-family: poppins;
     font-size: 15px;
     font-weight: 400;
-    margin: 0px 160px 0px 160px;
+    /* margin: 0px 160px 0px 160px; */
+    background: linear-gradient(105.18deg, #fdb271 0%, #fe9ea1 78.54%, #ffbd81 90%, #ffa862 100%);
+    width: 100%;
+    padding: 0 160px;
     display: flex;
     flex-direction: column;
     z-index: 5;
@@ -191,6 +198,7 @@
       border: none;
       cursor: pointer;
       margin-right: 6px;
+      padding: 3px 23px;
     }
     .footer-sm-section .title h1 {
       font-size: 26px;
@@ -223,7 +231,7 @@
 
   header {
     z-index: 3;
-    /* padding-top: 20px; */
+    padding: 20px 0;
     display: flex;
     color: #111;
     justify-content: space-between;
@@ -238,14 +246,14 @@
   }
 
   .sectionOne {
-    /* width: 100%; */
-    height: 10vh;
+    width: 100%;
+    height: 100vh;
     background: linear-gradient(105.18deg, #fdb271 0%, #fe9ea1 78.54%, #ffbd81 90%, #ffa862 100%);
-    /* position: relative; */
-    /* /* overflow: hidden; */
+    position: relative;
+    overflow: hidden;
   }
 
-  /* .sectionOne::before {
+  .sectionOne::before {
     position: absolute;
     top: -50px;
     width: 100%;
@@ -253,11 +261,11 @@
     content: "";
     z-index: 2;
     mix-blend-mode: darken;
-  } */
+  }
 
-  /* .sectionOne::before {
+  .sectionOne::before {
     bottom: 0;
-  } */
+  }
 
   .headerTitleMain {
     z-index: 3;
@@ -412,7 +420,11 @@
 
   @media screen and (max-width: 1024px) {
     .mainHeader {
-      margin: 0px 20px 0px 20px;
+      /* margin: 0px 20px 0px 20px; */
+      padding: 0 20px;
+      /* margin: 0px 160px 0px 160px; */
+      background: linear-gradient(105.18deg, #fdb271 0%, #fe9ea1 78.54%, #ffbd81 90%, #ffa862 100%);
+      width: 100%;
     }
 
     header ul {
@@ -1157,7 +1169,10 @@
     font-family: poppins;
     font-size: 15px;
     font-weight: 400;
-    margin: 0px 160px 0px 160px;
+    /* margin: 0px 160px 0px 160px; */
+    background: linear-gradient(105.18deg, #fdb271 0%, #fe9ea1 78.54%, #ffbd81 90%, #ffa862 100%);
+    width: 100%;
+    padding: 0 160px;
     display: flex;
     flex-direction: column;
     z-index: 5;
@@ -1206,7 +1221,7 @@
   header {
     z-index: 3;
     /* text-transform: uppercase; */
-    padding-top: 30px;
+    padding-top: 28px;
     display: flex;
     color: #111;
     justify-content: space-between;
@@ -1222,13 +1237,13 @@
 
   .sectionOne {
     width: 100%;
-    height: 30vh;
+    height: 100vh;
     background: linear-gradient(105.18deg, #fdb271 0%, #fe9ea1 78.54%, #ffbd81 90%, #ffa862 100%);
     position: relative;
     overflow: hidden;
   }
 
-  /* .sectionOne::before {
+  .sectionOne::before {
     position: absolute;
     top: -50px;
     width: 100%;
@@ -1236,11 +1251,11 @@
     content: "";
     z-index: 2;
     mix-blend-mode: darken;
-  } */
+  }
 
-  /* .sectionOne::before {
+  .sectionOne::before {
     bottom: 0;
-  } */
+  }
 
   .headerTitleMain {
     z-index: 3;
@@ -1398,7 +1413,8 @@
 
   @media screen and (max-width: 1024px) {
     .mainHeader {
-      margin: 0px 60px 0px 60px;
+      /* margin: 0px 60px 0px 60px; */
+      padding: 0 60px;
     }
 
     header ul {
@@ -1848,6 +1864,7 @@
 
   .footer-section {
     width: 100%;
+    background-color: #111;
   }
 
   .footer-section .container {
@@ -2069,7 +2086,8 @@
     font-family: poppins;
     font-size: 15px;
     font-weight: 400;
-    margin: 0px 120px 0px 120px;
+    /* margin: 0px 120px 0px 120px; */
+    padding: 0px 120px 0px 120px;
     display: flex;
     flex-direction: column;
     z-index: 5;
@@ -2118,7 +2136,7 @@
   header {
     z-index: 3;
     /* text-transform: uppercase; */
-    padding-top: 30px;
+    padding-top: 60px;
     display: flex;
     color: #111;
     justify-content: space-between;
@@ -2134,7 +2152,7 @@
 
   .sectionOne {
     width: 100%;
-    height: 35vh;
+    height: 100vh;
     /* background-image: url(https://wallpapercave.com/wp/wp7623952.jpg);
     background-size: cover;
     background-color: rgb(20, 20, 20); */
@@ -2143,7 +2161,7 @@
     overflow: hidden;
   }
 
-  /* .sectionOne::before {
+  .sectionOne::before {
     position: absolute;
     top: -50px;
     width: 100%;
@@ -2151,12 +2169,12 @@
     content: "";
     z-index: 2;
     mix-blend-mode: darken;
-  } */
+  }
 
-  /* .sectionOne::before {
+  .sectionOne::before {
     bottom: 0;
-    background: linear-gradient(180deg, #111 0%, transparent 90%);
-  } */
+    /* background: linear-gradient(180deg, #111 0%, transparent 90%); */
+  }
 
   .headerTitleMain {
     z-index: 3;
@@ -2746,8 +2764,8 @@
 
   .footer-section {
     width: 100%;
-    /* height: 80%;
-    background-color: #111; */
+    /* /* height: 80%; */
+    background-color: #111;
   }
 
   .footer-section .container {
@@ -2940,7 +2958,10 @@
     font-family: poppins;
     font-size: 15px;
     font-weight: 400;
-    margin: 0px 160px 0px 160px;
+    /* margin: 0px 160px 0px 160px; */
+    background: linear-gradient(105.18deg, #fdb271 0%, #fe9ea1 78.54%, #ffbd81 90%, #ffa862 100%);
+    width: 100%;
+    padding: 0 160px;
     display: flex;
     flex-direction: column;
     z-index: 5;
@@ -3011,7 +3032,7 @@
 
   .sectionOne {
     width: 100%;
-    height: 17vh;
+    height: 100vh;
     /* background-image: url(https://wallpapercave.com/wp/wp7623952.jpg);
     background-size: cover;
     background-color: rgb(20, 20, 20); */
@@ -3019,7 +3040,7 @@
     position: relative;
     overflow: hidden;
   }
-  /* 
+
   .sectionOne::before {
     position: absolute;
     top: -50px;
@@ -3028,12 +3049,12 @@
     content: "";
     z-index: 2;
     mix-blend-mode: darken;
-  } */
+  }
 
-  /* .sectionOne::before {
+  .sectionOne::before {
     bottom: 0;
-    background: linear-gradient(180deg, #111 0%, transparent 90%);
-  } */
+    /* background: linear-gradient(180deg, #111 0%, transparent 90%); */
+  }
 
   .headerTitleMain {
     z-index: 3;
@@ -3193,6 +3214,7 @@
   @media screen and (max-width: 1024px) {
     .mainHeader {
       margin: 0px 60px 0px 60px;
+      padding: 0 60px;
     }
 
     header ul {
@@ -3607,8 +3629,8 @@
 
   .footer-section {
     width: 100%;
-    /* height: 80%;
-    background-color: #111; */
+    /* /* height: 80%; */
+    background-color: #111;
   }
 
   .footer-section .container {
@@ -3800,7 +3822,10 @@
     font-family: poppins;
     font-size: 15px;
     font-weight: 400;
-    margin: 0px 160px 0px 160px;
+    /* margin: 0px 160px 0px 160px; */
+    background: linear-gradient(105.18deg, #fdb271 0%, #fe9ea1 78.54%, #ffbd81 90%, #ffa862 100%);
+    width: 100%;
+    padding: 0 160px;
     display: flex;
     flex-direction: column;
     z-index: 5;
@@ -3871,7 +3896,7 @@
 
   .sectionOne {
     width: 100%;
-    height: 16vh;
+    height: 100vh;
     /* background-image: url(https://wallpapercave.com/wp/wp7623952.jpg);
     background-size: cover;
     background-color: rgb(20, 20, 20); */
@@ -3880,7 +3905,7 @@
     overflow: hidden;
   }
 
-  /* .sectionOne::before {
+  .sectionOne::before {
     position: absolute;
     top: -50px;
     width: 100%;
@@ -3888,12 +3913,12 @@
     content: "";
     z-index: 2;
     mix-blend-mode: darken;
-  } */
+  }
 
-  /* .sectionOne::before {
+  .sectionOne::before {
     bottom: 0;
-    background: linear-gradient(180deg, #111 0%, transparent 90%);
-  } */
+    /* background: linear-gradient(180deg, #111 0%, transparent 90%); */
+  }
 
   .headerTitleMain {
     z-index: 3;
@@ -4053,6 +4078,7 @@
   @media screen and (max-width: 1024px) {
     .mainHeader {
       margin: 0px 60px 0px 60px;
+      padding: 0 60px;
     }
 
     header ul {
@@ -4463,8 +4489,8 @@
 
   .footer-section {
     width: 100%;
-    /* height: 80%;
-    background-color: #111; */
+    /* height: 80%; */
+    background-color: #111;
   }
 
   .footer-section .container {
@@ -4664,7 +4690,10 @@
     font-family: poppins;
     font-size: 15px;
     font-weight: 400;
-    margin: 0px 160px 0px 160px;
+    /* margin: 0px 160px 0px 160px; */
+    background: linear-gradient(105.18deg, #fdb271 0%, #fe9ea1 78.54%, #ffbd81 90%, #ffa862 100%);
+    width: 100%;
+    padding: 0 160px;
     display: flex;
     flex-direction: column;
     z-index: 5;
@@ -4719,7 +4748,7 @@
   header {
     z-index: 3;
     /* text-transform: uppercase; */
-    padding-top: 30px;
+    padding-top: 60px;
     display: flex;
     color: #111;
     justify-content: space-between;
@@ -4735,7 +4764,7 @@
 
   .sectionOne {
     width: 100%;
-    height: 36vh;
+    height: 100vh;
     /* background-image: url(https://wallpapercave.com/wp/wp7623952.jpg);
     background-size: cover;
     background-color: rgb(20, 20, 20); */
@@ -4744,7 +4773,7 @@
     overflow: hidden;
   }
 
-  /* .sectionOne::before {
+  .sectionOne::before {
     position: absolute;
     top: -50px;
     width: 100%;
@@ -4752,12 +4781,12 @@
     content: "";
     z-index: 2;
     mix-blend-mode: darken;
-  } */
+  }
 
-  /* .sectionOne::before {
+  .sectionOne::before {
     bottom: 0;
-    background: linear-gradient(180deg, #111 0%, transparent 90%);
-  } */
+    /* background: linear-gradient(180deg, #111 0%, transparent 90%); */
+  }
 
   .headerTitleMain {
     z-index: 3;
@@ -4915,7 +4944,8 @@
 
   @media screen and (max-width: 1024px) {
     .mainHeader {
-      margin: 0px 60px 0px 60px;
+      /* margin: 0px 60px 0px 60px; */
+      padding: 0 60px;
     }
 
     header ul {
@@ -5332,8 +5362,8 @@
 
   .footer-section {
     width: 100%;
-    /* height: 80%;
-    background-color: #111; */
+    /* /* height: 80%; */
+    background-color: #111;
   }
 
   .footer-section .container {
@@ -5510,7 +5540,10 @@
     font-family: poppins;
     font-size: 15px;
     font-weight: 400;
-    margin: 0px 160px 0px 160px;
+    /* margin: 0px 160px 0px 160px; */
+    background: linear-gradient(105.18deg, #fdb271 0%, #fe9ea1 78.54%, #ffbd81 90%, #ffa862 100%);
+    width: 100%;
+    padding: 0 160px;
     display: flex;
     flex-direction: column;
     z-index: 5;
@@ -5565,7 +5598,7 @@
   header {
     z-index: 3;
     /* text-transform: uppercase; */
-    padding-top: 60px;
+    padding-top: 28px;
     display: flex;
     color: #111;
     justify-content: space-between;
@@ -5581,7 +5614,7 @@
 
   .sectionOne {
     width: 100%;
-    height: 17vh;
+    height: 100vh;
     /* background-image: url(https://wallpapercave.com/wp/wp7623952.jpg);
     background-size: cover;
     background-color: rgb(20, 20, 20); */
@@ -5590,7 +5623,7 @@
     overflow: hidden;
   }
 
-  /* .sectionOne::before {
+  .sectionOne::before {
     position: absolute;
     top: -50px;
     width: 100%;
@@ -5598,12 +5631,12 @@
     content: "";
     z-index: 2;
     mix-blend-mode: darken;
-  } */
+  }
 
-  /* .sectionOne::before {
+  .sectionOne::before {
     bottom: 0;
-    background: linear-gradient(180deg, #111 0%, transparent 90%);
-  } */
+    /* background: linear-gradient(180deg, #111 0%, transparent 90%); */
+  }
 
   .headerTitleMain {
     z-index: 3;
@@ -5762,7 +5795,8 @@
 
   @media screen and (max-width: 1024px) {
     .mainHeader {
-      margin: 0px 60px 0px 60px;
+      /* margin: 0px 60px 0px 60px; */
+      padding: 0 60px;
     }
 
     header ul {
@@ -6167,8 +6201,8 @@
 
   .footer-section {
     width: 100%;
-    /* height: 80%;
-    background-color: #111; */
+    /* /* height: 80%; */
+    background-color: #111;
   }
 
   .footer-section .container {
@@ -6528,8 +6562,13 @@
 
   .card_section2 .feature_card:nth-child(1) img {
     width: 280px !important;
-    left: 210;
+    left: 210 !important;
     top: -180 !important;
+  }
+  .card_section1 .feature_card:nth-child(1) img {
+    width: 220px !important;
+    left: 210 !important;
+    top: -130 !important;
   }
 }
 /*---------------------ipad-------------------------------*/
@@ -6553,7 +6592,10 @@
     font-family: poppins;
     font-size: 15px;
     font-weight: 400;
-    margin: 0px 160px 0px 160px;
+    /* margin: 0px 160px 0px 160px; */
+    background: linear-gradient(105.18deg, #fdb271 0%, #fe9ea1 78.54%, #ffbd81 90%, #ffa862 100%);
+    width: 100%;
+    padding: 0 160px;
     display: flex;
     flex-direction: column;
     z-index: 5;
@@ -6690,7 +6732,7 @@
   header {
     z-index: 3;
     /* text-transform: uppercase; */
-    /* padding-top: 20px; */
+    padding-top: 20px;
     display: flex;
     color: #111;
     justify-content: space-between;
@@ -6706,7 +6748,7 @@
 
   .sectionOne {
     width: 100%;
-    height: 17vh;
+    height: 100vh;
     /* background-image: url(https://wallpapercave.com/wp/wp7623952.jpg);
     background-size: cover;
     background-color: rgb(20, 20, 20); */
@@ -6715,7 +6757,7 @@
     overflow: hidden;
   }
 
-  /* .sectionOne::before {
+  .sectionOne::before {
     position: absolute;
     top: -50px;
     width: 100%;
@@ -6723,12 +6765,12 @@
     content: "";
     z-index: 2;
     mix-blend-mode: darken;
-  } */
+  }
 
-  /* .sectionOne::before {
+  .sectionOne::before {
     bottom: 0;
-    background: linear-gradient(180deg, #111 0%, transparent 90%);
-  } */
+    /* background: linear-gradient(180deg, #111 0%, transparent 90%); */
+  }
 
   .headerTitleMain {
     z-index: 3;
@@ -6884,6 +6926,7 @@
   @media screen and (max-width: 1024px) {
     .mainHeader {
       margin: 0px 20px 0px 20px;
+      padding: 0 20px;
     }
 
     header ul {
@@ -7339,6 +7382,7 @@
 
   .footer-sm-section {
     width: 100%;
+    background-color: #111;
   }
 
   .footer-sm-section .container {
@@ -7675,5 +7719,188 @@
     font-family: poppins;
     overflow: hidden;
     transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+  }
+}
+
+/* -----------------form_Section_CSS------------------ */
+
+.container_form {
+  padding: 0;
+  margin: 0;
+  border-spacing: 0;
+  width: 100%;
+  text-align: center;
+  position: fixed;
+  top: 25vh;
+  z-index: 9;
+  font-family: poppins;
+}
+.row {
+  padding: 0;
+  margin: 0;
+  border-spacing: 0;
+  display: inline-block;
+  width: 100%;
+  max-width: 1200px;
+  text-align: left;
+}
+
+.col {
+  padding: 0;
+  margin: 8px 0 16px 0;
+  position: relative;
+  vertical-align: top;
+  float: left;
+}
+
+.col-100 {
+  width: 100%;
+  display: inline-block;
+}
+
+.main {
+  width: 100%;
+  /* max-width: 650px; */
+  left: 285px;
+  top: 241px;
+  background: #ffffff;
+  border-radius: 20px;
+  /* border: 1px solid; */
+  /* padding: 20px; */
+  background-color: #ffffff;
+  margin: auto;
+}
+
+.close_header {
+  text-align: right;
+  position: relative;
+  margin: 0 0 0 0;
+  top: -44px;
+}
+
+.close_header button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+.all_details {
+  display: flex;
+  margin: -10px 0 0 0;
+}
+
+.col_100 {
+  width: 100%;
+  max-width: 400px;
+  position: relative;
+}
+
+.col_100 p {
+  font-family: var(--primaryFont);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.8rem;
+  line-height: 37px;
+
+  color: #000000;
+}
+
+.form_details input {
+  background: #ffffff;
+  border: 2px solid #22010b;
+  box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.25);
+  border-radius: 40px;
+  outline: none;
+  width: 292px;
+  height: 40px;
+  padding: 0 15px;
+  margin: 10px auto;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.form_details input:focus {
+  border: 2px solid #8111e8;
+}
+
+.right_svg {
+  position: absolute;
+  top: 69px;
+  right: 270px;
+}
+
+.btn {
+  text-align: center;
+  margin: 10px 0;
+  width: 50%;
+}
+
+.btn button {
+  background: #8111e8;
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  border: none;
+  padding: 10px 16px;
+  font-family: var(--primaryFont);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 17px;
+  text-transform: capitalize;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.alter p {
+  font-family: var(--primaryFont);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 20px;
+
+  color: #242628;
+}
+
+.alter span {
+  font-weight: bolder;
+  color: #000000;
+}
+
+#myDIV {
+  display: none;
+}
+
+@media screen and (max-width: 900px) {
+  .main {
+    width: 100%;
+    /* max-width: 300px; */
+  }
+  .all_details {
+    margin: -40px 0 0 0;
+  }
+  .col_100 p {
+    font-size: 1.3rem;
+    line-height: 28px;
+  }
+
+  .form_details {
+    margin-left: -4px;
+  }
+
+  .form_details input {
+    width: 250px;
+    height: 35px;
+  }
+
+  .btn {
+    text-align: center;
+    width: 100%;
+  }
+  .right_svg svg {
+    display: none;
   }
 }
